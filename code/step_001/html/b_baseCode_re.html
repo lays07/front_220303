@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Document</title>
+  <style>
+    /*내용을 작성하면 표현되지 않는다.*/
+    /** 
+      *리스트처럼 설명을 하나씩 하고 싶을때 사용
+    */
+
+    /* img{속성명:값; 속성명:값;} */
+    img{ width: 100px; height: auto;}
+  </style>
+</head>
+<body>
+  <!-- type: block -->
+  <!-- heading -->
+  <div>
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+  </div>
+  <!-- content -->
+  <p></p>
+  <pre></pre>
+  <address></address>
+  <blockquote>
+    <q></q>
+  </blockquote>
+  
+  <!-- list -->
+  <ul>
+    <li><a href="https://naver.com">네이버로 이동</a></li>
+    <li><a href="https://daum.net" title="다음으로 이동">다음으로 이동</a></li><!--마우스올려놓으면 타이틀-->
+  </ul>
+  <ol>
+    <li><a href="https://google.com" target="_self">google로 이동</a></li><!--그 자리에서 변경하기 기본 베이스-->
+    <li><a href="https://w3.org/tr" target="_blank">w3c</a></li> <!--새창띄우기-->
+  </ol>
+  <dl>
+    <dt></dt> <!--제목-->
+    <dd></dd>
+    <dd></dd>
+    <dd></dd>
+  </dl>
+
+<!-- type inline -->
+<p>
+  <strong></strong>
+  <em></em>
+  <ins></ins>
+  <del></del>
+
+  오늘<span hidden>의 할일은</span>
+  웹문서<span hidden>를 만들고 간단하게 디자인</span> 해보기!!!
+
+  오늘 웹문서 해보기
+</p>
+
+<!-- ============================ -->
+<!-- 인라인요소안에 블럭요소는 사용할 수 없다. 그 반대는 가능 -->
+<div>의미없는 요소, 빈 박스 : block의 개념</div>
+<span>의미없는 요소,빈 비닐봉투 : inline의 개념</span>
+<a href="#">anker-원하는 페이지로 이동하게 하는hyper link</a>
+<img src="https://picsum.photos/500/250" alt="이미지 설명" /> 
+
+<!-- single====================== -->
+<hr />
+<br />
+
+<!-- 접근성은 '모든사람'들이 편리하게 사용할 수 있게 -->
+
+</body>
+</html>
