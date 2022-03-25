@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* layout_04.css */
+
+body {
+  background-color: #000070;
+}
+
+#wrap {
+  width: 600px; height: 800px; 
+  margin: 100px auto;
+  background-color: #afa;
+  font-size: 72px; font-weight: 900;
+  color: #000070;
+  text-align: center; line-height: 500px;
+}
+/* ---------------------------------------- */
+
+#header {
+  width: 600px; height: 100px; 
+  line-height: 100px; color: #fff;
+  background-color: #f570a3;
+}
+/* -------------------------------------- */
+
+#section {
+  height: 300px;
+  line-height: 300px;
+}
+
+#section > div {
+  float: left; font-size: 48px; color: #fff;
+}
+
+.sect_01 {
+  width: 40%; background-color: #329664;
+}
+.sect_02 {
+  width: 60%; background-color: #555;
+}
+/* -------------------------------------- */
+
+#footer {
+  height: 100px;
+  line-height: 100px; color: #fff;
+  background-color: #5d61a3;
+}
+/* ------------------------------------- */
+
+#aside {
+  width: auto; height: 300px;
+}
+
+#aside > div {
+  float: left; width: 33.3333%; height: 300px; 
+  font-size: 36px; line-height: 300px;
+  color: #fff;
+}
+
+.side_01 {
+  background-color: #b387ec;
+}
+.side_02 {
+  background-color: #46615a;
+}
+.side_03 {
+  background-color: #53337c;
+}
+
+/* ----------------------------------- */
+
+#footer {
+  height: 100px;
+  line-height: 100px; color: #fff;
+  background-color: #5d61a3;
+}
+/* ------------------------------------- */

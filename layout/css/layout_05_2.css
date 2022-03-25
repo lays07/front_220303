@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* layout_05_2.css */
+
+body {
+  background-color: #000070;
+}
+
+#wrap {
+  width: 600px; height: 1600px; 
+  margin: 100px auto;
+  background-color: #afa;
+  font-size: 72px; font-weight: 900;
+  color: #000070;
+  text-align: center; line-height: 500px;
+}
+/* ---------------------------------------- */
+
+#header {
+  width: 600px; height: 100px; 
+  line-height: 100px; color: #fff;
+  background-color: #f570a3;
+}
+/* -------------------------------------- */
+
+#section {
+  height: 300px;
+  line-height: 300px;
+}
+
+#section > div {
+  float: left; font-size: 48px; color: #fff;
+}
+
+.sect_01 {
+  width: 40%; background-color: #329664;
+}
+.sect_02 {
+  width: 60%; background-color: #555;
+}
+/* -------------------------------------- */
+
+#footer {
+  height: 100px;
+  line-height: 100px; color: #fff;
+  background-color: #5d61a3;
+}
+/* ------------------------------------- */
+
+#aside {
+  width: auto; height: 300px;
+}
+
+#aside > div {
+  float: left; width: 33.3333%; height: 300px; 
+  font-size: 36px; line-height: 300px;
+  color: #fff;
+}
+
+.side_01 {
+  background-color: #b387ec;
+}
+.side_02 {
+  background-color: #46615a;
+}
+.side_03 {
+  background-color: #53337c;
+}
+/* ----------------------------------- */
+
+#article {
+  width: auto; height: 300px;
+}
+
+#article > div {
+  float: left;
+  font-size: 36px;
+  color: #fff;
+}
+
+#article .art_01 {
+  width: 30%; line-height: 300px;
+  background-color: #1e0753;
+}
+
+#article .art_02 {
+  width: 70%; height: 150px;
+  line-height: 150px;
+  background-color: #e2844e;
+}
+#article .art_03 {
+  width: 70%; height: 150px;
+  line-height: 150px;
+  background-color: #bf6ccf;
+}
+/* ------------------------------------- */
+#content {
+  width: auto; height: 500px;
+}
+
+#content > div {
+  font-size: 36px;
+  color: #fff;
+}
+
+#content .art_01 {
+  float: right;
+  width: 30%; height: 500px;
+  line-height: 500px;
+  background-color: #1e0753;
+}
+
+#content .art_02 {
+  width: 70%; height: 150px;
+  line-height: 150px;
+  background-color: #e2844e;
+}
+
+#content .art_03 {
+  width: 70%; height: 350px;
+  line-height: 350px;
+  background-color: #bf6ccf;
+}
+
+
+
+/* ------------------------------------- */
+
+
+#footer {
+  height: 100px;
+  line-height: 100px; color: #fff;
+  background-color: #5d61a3;
+}
+/* ------------------------------------- */

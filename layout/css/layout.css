@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* layout.css */
+
+body {
+  background-color: #000070;
+}
+
+#wrap {
+  width: 600px; height: 500px; 
+  margin: 0 auto;
+  background-color: #afa;
+  font-size: 72px; font-weight: 900;
+  color: #000070;
+  text-align: center; line-height: 500px;
+}
+/* layout_01 ------------------------- */
+
+#header {
+  width: 600px; height: 100px; 
+  line-height: 100px; color: #fff;
+  background-color: #f570a3;
+}
+
+#section {
+  height: 300px;
+  line-height: 300px;
+  background-color: #ffdd1c;
+}
+#footer {
+  height: 100px;
+  line-height: 100px; color: #fff;
+  background-color: #5d61a3;
+}
+/* layout_02 ------------------------- */
+
+.sect_01 {
+  float: left; width: 40%;
+  font-size: 48px; color: #fff;
+  background-color: #329664;
+}
+.sect_02 {
+  float: left; width: 60%;
+  font-size: 48px; color: #fff;
+  background-color: #555;
+}
+/* layout_03 ------------------------- */
